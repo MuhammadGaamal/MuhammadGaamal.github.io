@@ -1,0 +1,166 @@
+#logo {
+  display: inline-block;
+  margin-top: -60px;
+  float: left;
+  height: 130px;
+  width: auto; 
+  border-radius: 50%; 
+}
+
+body {
+  margin: 0;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #EBEBEB;
+  height: 50px;
+  width: 100%;
+}
+
+.topnav a {
+  float: left;
+  color: #A8A8A8;
+  margin-top: 10px;
+  text-align: center;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.topnav a.active {
+  background-color: orange;
+  color: white;
+  border-radius: 20px;
+}
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: 0.01px transparent;
+  border-radius: 5px;
+  width: 680px;
+}
+
+.topnav button {
+  padding: 5px 5px;
+  margin-top: 8px;
+  margin-right: 5px;
+  margin-left: 15px;
+  background: #ddd;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav button.active {
+  background: #6495ED;
+}
+
+
+.background {
+  padding-top: 30px; 
+  text-align: center;
+  background-image: url("https://coverfiles.alphacoders.com/139/139755.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 400px; /* You must set a specified height */
+  display: inline-block;
+  width: 100%;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.background h1{
+font-size: 50px;
+}
+
+.background p{
+font-size: 20px;
+}
+.background button {
+  padding: 10px 10px;
+  margin-top: 15px;
+  margin-right: 5px;
+  margin-left: 15px;
+  background: #ddd;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+.background button.active{
+	background: orange;
+}
+
+.text {
+	text-align: center;
+}
+
+.text span {
+	color: orange;
+}
+
+.text h2{
+	font-size: 30px;
+}
+
+.text p{
+	font-size: 18px;
+}
+.line{
+width: 100px;
+border-bottom: 4px solid orange;
+margin-left: 10px;
+display: inline-block;
+}
+
+.container{
+	text-align: center;
+}
+
+.box {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  margin: 1em;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  border: 1px transparent;
+  padding: 10px;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.box h4 {
+	font-size: 20px;
+}
+
+
+.box p {
+	font-size: 18px;
+}
+
+.box button {
+  background-color: #008CBA; /* blue */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.box button#diff {
+	background-color: orange;
+}
+
+.box a {
+	color: orange;
+	text-decoration: none;
+}
+
+.box #second{
+	margin-top: 20px;
+	margin-left: 8px;
+	position: relative;
+}
